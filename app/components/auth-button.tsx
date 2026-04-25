@@ -11,7 +11,7 @@ export function AuthButton({ signedIn }: AuthButtonProps) {
     return (
       <button
         className="mt-6 inline-flex h-11 items-center justify-center rounded-md border border-slate-300 px-5 text-sm font-semibold text-slate-700 hover:bg-slate-100"
-        onClick={() => signOut({ callbackUrl: "http://127.0.0.1:3000" })}
+        onClick={() => signOut({ callbackUrl: "/" })}
         type="button"
       >
         Sign out
